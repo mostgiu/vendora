@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <nav className="relative flex w-full flex-wrap items-center justify-center gap-4 py-2 md:justify-between">
       <Link href="/" className="flex items-center gap-2">
-        <Image src={"/logo.png"} alt="Logo" width={30} height={30} />
+        <Image src="/logo.svg" alt="Vendora logo" width={30} height={30} unoptimized />
         <span className="font-bold text-lg">VENDORA.</span>
       </Link>
 

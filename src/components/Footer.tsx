@@ -13,7 +13,7 @@ const Footer = () => {
         <div>
           <Link href="/" className="group inline-flex items-center gap-2">
             <span className="flex h-6 w-6 items-center justify-center rounded-md bg-white/5 transition group-hover:bg-white/10">
-              <Image src="/logo.png" alt="Vendora logo" width={16} height={16} />
+              <Image src="/logo.svg" alt="Vendora logo" width={16} height={16} unoptimized />
             </span>
             <span className="text-[10px] font-semibold tracking-[0.18em] text-gray-200">VENDORA</span>
           </Link>
