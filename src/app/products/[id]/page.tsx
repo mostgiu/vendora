@@ -20,13 +20,13 @@ export const generateMetadata = async ({ params }: ProductPageProps): Promise<Me
 
   return {
     title: product.name,
-    description: `${product.shortDescription} Shop ${product.name} at Trend Lama. Available in ${product.colors.join(", ")} with sizes ${product.sizes.join(", ")}.`,
+    description: `${product.shortDescription} Shop ${product.name} at Vendora. Available in ${product.colors.join(", ")} with sizes ${product.sizes.join(", ")}.`,
     alternates: {
       canonical: `/products/${product.id}`,
     },
     openGraph: {
       type: "website",
-      title: `${product.name} | Trend Lama`,
+      title: `${product.name} | Vendora`,
       description: product.shortDescription,
       images: [
         {

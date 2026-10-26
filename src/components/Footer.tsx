@@ -13,9 +13,9 @@ const Footer = () => {
         <div>
           <Link href="/" className="group inline-flex items-center gap-2">
             <span className="flex h-6 w-6 items-center justify-center rounded-md bg-white/5 transition group-hover:bg-white/10">
-              <Image src="/logo.png" alt="Trend Lama logo" width={16} height={16} />
+              <Image src="/logo.png" alt="Vendora logo" width={16} height={16} />
             </span>
-            <span className="text-[10px] font-semibold tracking-[0.18em] text-gray-200">TREND LAMA</span>
+            <span className="text-[10px] font-semibold tracking-[0.18em] text-gray-200">VENDORA</span>
           </Link>
           <p className="mt-2 max-w-xs text-[10px] leading-4 text-gray-500">{t("qualityEssentials")}</p>
           <Link href="/products" className="mt-2 inline-flex items-center gap-1 text-[10px] font-medium text-gray-200 transition-colors hover:text-white">
@@ -35,16 +35,16 @@ const Footer = () => {
 
         <div>
           <p className="mb-1.5 text-[8px] font-semibold uppercase tracking-[0.22em] text-gray-600">{t("contact")}</p>
-          <a href="mailto:hello@trendlama.com" className="inline-flex items-center gap-2 text-[10px] text-gray-400 transition-colors hover:text-white">
+          <a href="mailto:hello@vendora.shop" className="inline-flex items-center gap-2 text-[10px] text-gray-400 transition-colors hover:text-white">
             <Mail className="h-3 w-3" aria-hidden="true" />
-            hello@trendlama.com
+            hello@vendora.shop
           </a>
           <p className="mt-2 text-[10px] leading-4 text-gray-500">{t("qualityEssentials")}</p>
         </div>
       </div>
 
       <div className="mt-4 flex flex-col gap-1 border-t border-gray-800 pt-2 text-[8px] text-gray-600 sm:flex-row sm:items-center sm:justify-between">
-        <span>© {new Date().getFullYear()} Trend Lama. {t("allRightsReserved")}</span>
+        <span>© {new Date().getFullYear()} Vendora. {t("allRightsReserved")}</span>
         <span>EN / IT</span>
       </div>
     </footer>

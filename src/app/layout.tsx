@@ -17,13 +17,13 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),
   title: {
-    default: "Trend Lama | Modern Everyday Fashion",
-    template: "%s | Trend Lama",
+    default: "Vendora | Modern Everyday Fashion",
+    template: "%s | Vendora",
   },
   description:
-    "Shop modern everyday fashion at Trend Lama. Discover comfortable clothing, sneakers, and versatile essentials for your style.",
+    "Shop modern everyday fashion at Vendora. Discover comfortable clothing, sneakers, and versatile essentials for your style.",
   keywords: [
-    "Trend Lama",
+    "Vendora",
     "online fashion store",
     "everyday clothing",
     "sneakers",
@@ -32,16 +32,16 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     type: "website",
-    siteName: "Trend Lama",
-    title: "Trend Lama | Modern Everyday Fashion",
+    siteName: "Vendora",
+    title: "Vendora | Modern Everyday Fashion",
     description:
-      "Discover comfortable clothing, sneakers, and modern everyday essentials at Trend Lama.",
+      "Discover comfortable clothing, sneakers, and modern everyday essentials at Vendora.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Trend Lama | Modern Everyday Fashion",
+    title: "Vendora | Modern Everyday Fashion",
     description:
-      "Discover comfortable clothing, sneakers, and modern everyday essentials at Trend Lama.",
+      "Discover comfortable clothing, sneakers, and modern everyday essentials at Vendora.",
   },
   robots: {
     index: true,
@@ -61,8 +61,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+    <html lang="en" suppressHydrationWarning>
+      <body suppressHydrationWarning className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <LanguageProvider>
           <AppShell>{children}</AppShell>
         </LanguageProvider>

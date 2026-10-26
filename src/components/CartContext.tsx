@@ -70,7 +70,7 @@ export const useCart = create<CartStore>()(
       clearCart: () => set({ items: [], itemCount: 0, total: 0 }),
     }),
     {
-      name: "trend-lama-cart",
+      name: "vendora-cart",
       partialize: (state) => ({
         items: state.items,
         itemCount: state.itemCount,

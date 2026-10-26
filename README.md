@@ -1,1 +1,1 @@
-# Lama-store
+# Vendora
